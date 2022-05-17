@@ -1,0 +1,16 @@
+# YAML for setting up a conda environment for
+# the marx library
+name: marx
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - beautifulsoup4
+  - matplotlib
+  - pandas
+  - python>=3.8.2
+  - pyfiglet
+  - pylint
+  - requests
+  - jupyter
+  - quantecon
