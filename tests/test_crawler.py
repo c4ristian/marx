@@ -14,6 +14,8 @@ _VALID_URL2 = "https://bitinfocharts.com/en/top-100-richest-bitcoin-addresses-2.
 _INVALID_URL = "https://www.google.de"
 
 
+# pylint: disable=W0212
+# Accessing a protected functionis ok for a test
 def test_crawl_richest_addresses_by_url():
     """
     Testcase for the function _crawl_richest_addresses_by_url.
