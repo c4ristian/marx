@@ -6,11 +6,12 @@ channels:
   - defaults
 dependencies:
   - beautifulsoup4
+  - jupyter
   - matplotlib
   - pandas
   - python>=3.8.2
   - pyfiglet
   - pylint
   - requests
-  - jupyter
+  - statsmodels
   - quantecon
