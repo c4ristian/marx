@@ -1,5 +1,5 @@
 """
-This script crawls a list of the richest bitcoin balances and their balances
+This script crawls a list of the richest bitcoin addresses and their balances
 and stores the result in a CSV file.
 """
 
