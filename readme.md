@@ -1,7 +1,7 @@
 # Marx Project
 
 ## What is it?
-This Python library provides a [notebook](notebooks/bitcoin_distribution.ipynb) to analyse 
+This Python library provides a [notebook](bitcoin_distribution.ipynb) to analyse 
 the wealth distribution of Bitcoin. It builds on a [CSV file](data/bitcoin_balances_13052022.csv)
 containing the richest bitcoin addresses and their balances. The balances were crawled from the 
 website [BitInfoCharts](https://bitinfocharts.com/en/top-100-richest-bitcoin-addresses.html) using 
@@ -26,7 +26,7 @@ python -m ipykernel install --user --name=marx
 
 ### Run Notebooks
 ```sh
-jupyter notebook --notebook-dir="./notebooks"
+jupyter notebook
 ```
 
 ## License

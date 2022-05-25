@@ -5,6 +5,7 @@ __pycache__/
 
 # Directories
 .idea
+.ipynb_checkpoints
 
 # Other Files
 *.coverage
